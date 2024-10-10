@@ -1,4 +1,4 @@
-module go-ethereum
+module github.com/vsc-eco/go-ethereum
 
 go 1.22
 
