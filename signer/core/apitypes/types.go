@@ -833,9 +833,9 @@ func (t Types) validate() error {
 				continue
 			}
 			// Must be reference type
-			if _, exist := t[typeObj.typeName()]; !exist {
-				return fmt.Errorf("reference type %q is undefined", typeObj.Type)
-			}
+			//if _, exist := t[typeObj.typeName()]; !exist {
+			//	return fmt.Errorf("reference type %q is undefined", typeObj.Type)
+			//}
 			//if !typedDataReferenceTypeRegexp.MatchString(typeObj.Type) {
 			//	return fmt.Errorf("unknown reference type %q", typeObj.Type)
 			//}
